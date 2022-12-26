@@ -10,7 +10,7 @@ import javax.naming.InitialContext;
 
 public class BaseJMSClient {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         // Create a connection factory
         ConnectionFactory factory = null;
